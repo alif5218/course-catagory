@@ -1,0 +1,29 @@
+.container .row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .row .col{
+    box-shadow: 5px 20px 35px rgba(0,0,0,0.3);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.container .row .col .img-box img{
+    width: 350px;
+    max-width: 350px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.container .row .col .content-box{
+    padding: 15px 25px;
+}
+.container .row .col .content-box h1{
+    font-size: 24px;
+}
+.container .row .col .content-box h3{
+    font-size: 17px;
+}
+.container .row .col .content-box p .fa{
+    color: powderblue;
+}
